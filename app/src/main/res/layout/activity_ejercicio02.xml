@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1C1C1C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de pedidos"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Cliente"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etNumeroCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número Cliente"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Productos"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1C1C1C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examen Calificado 02"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- El espacio vacío se distribuye aquí -->
+    <View
+        android:id="@+id/viewVerde"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/oval_background"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnOcultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ocultar"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
